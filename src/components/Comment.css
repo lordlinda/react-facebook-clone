@@ -1,0 +1,21 @@
+.comment{
+    display:flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 0px;
+}
+
+.comment__info{
+    margin-left: 20px;
+}
+.comment__name{
+    font-weight: 800;
+    font-size: 12px;
+}
+.comment__message{
+    font-size: 19px;
+    margin: 1px 0px;
+}
+.comment__time{
+    font-size: 12px;
+}

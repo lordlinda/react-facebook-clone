@@ -1,0 +1,13 @@
+.notification__info{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+    cursor: pointer;
+}
+.notification__icon{
+    color:green;
+    font-size:xx-small !important;
+    margin-right: 2px;
+
+}

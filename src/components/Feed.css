@@ -1,0 +1,14 @@
+/**.feed{(*
+    flex: 1;
+    padding: 30px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}**/
+
+.feed{
+    width: 100vw;
+}
+

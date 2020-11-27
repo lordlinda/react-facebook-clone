@@ -1,0 +1,29 @@
+.post{
+    width:90vw;
+    margin:0 auto;
+    margin-top: 15px;
+}
+.post__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 12px;
+    color:gray;
+}
+.MuiCardActions-root{
+    padding-top: 10px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: medium;
+    color: gray;
+    cursor: pointer;
+    padding: 15px;
+}
+@media only screen and (min-width: 768px) {
+    .post{
+        width:70vw;
+        margin-left: 60px;
+    }
+}

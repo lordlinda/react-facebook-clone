@@ -1,0 +1,25 @@
+.storyReel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+    width: 90vw;
+    margin:auto;
+}
+
+.storyReel::-webkit-scrollbar{
+    display: none;
+}
+
+/*Hide scrollbar for IE,Edge and  Firefox*/
+.storyReel{
+    -ms-overflow-style:none;/*IE and Edge*/
+    scrollbar-width:none;
+}
+
+@media only screen and (min-width: 768px) {
+    .storyReel{
+        width:70vw;
+        margin-left: 60px;
+    }
+}
